@@ -5,6 +5,7 @@ url = ssh://git@github.com/CodeEditorLand/FoundationTauriCargo.git
 [submodule "NPM"]
 path = NPM
 url = ssh://git@github.com/CodeEditorLand/FoundationTauriNPM.git
+
 [submodule "Service"]
-	path = Service
-	url = ssh://git@github.com/CodeEditorLand/FoundationTauriService.git
+path = Service
+url = ssh://git@github.com/CodeEditorLand/FoundationTauriService.git
