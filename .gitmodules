@@ -1,7 +1,3 @@
-[submodule "Component"]
-path = Component
-url = ssh://git@github.com/CodeEditorLand/FoundationTauriComponent.git
-
 [submodule "Cargo"]
 path = Cargo
 url = ssh://git@github.com/CodeEditorLand/FoundationTauriCargo.git
