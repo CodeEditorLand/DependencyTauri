@@ -1,11 +1,11 @@
 [submodule "Cargo"]
 path = Cargo
-url = ssh://git@github.com/CodeEditorLand/FoundationTauriCargo.git
+url = ssh://git@github.com/CodeEditorLand/DependencyTauriCargo.git
 
 [submodule "NPM"]
 path = NPM
-url = ssh://git@github.com/CodeEditorLand/FoundationTauriNPM.git
+url = ssh://git@github.com/CodeEditorLand/DependencyTauriNPM.git
 
 [submodule "Service"]
 path = Service
-url = ssh://git@github.com/CodeEditorLand/FoundationTauriService.git
+url = ssh://git@github.com/CodeEditorLand/DependencyTauriService.git
