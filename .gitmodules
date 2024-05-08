@@ -5,7 +5,3 @@ url = ssh://git@github.com/CodeEditorLand/DependencyTauriCargo.git
 [submodule "NPM"]
 path = NPM
 url = ssh://git@github.com/CodeEditorLand/DependencyTauriNPM.git
-
-[submodule "Service"]
-path = Service
-url = ssh://git@github.com/CodeEditorLand/DependencyTauriService.git
