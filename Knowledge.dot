@@ -1,0 +1,1308 @@
+digraph G {
+  newrank=true;
+  rankdir=LR;
+  splines=ortho;
+  overlap=false;
+  nodesep=0.5;
+  ranksep=0.5;
+  concentrate=true;
+  graph [bgcolor="#f9f9f9", color="#888888", penwidth=2, fontname="Arial"];
+  node [fontname="Arial", fontsize=14, style=filled, margin="0.3,0.2"];
+  edge [fontname="Arial", fontsize=10, color="#555555", fontcolor="gray"];
+  subgraph cluster_1 {
+    label="root";
+    style=filled; color="#5DADE2"; fillcolor="#5DADE220";
+    "n0" [label="root", shape=folder, fillcolor="#5DADE2", penwidth=1.5];
+  subgraph cluster_2 {
+    label="NPM";
+    style=filled; color="#3498DB"; fillcolor="#3498DB20";
+    "n213" [label="NPM", shape=folder, fillcolor="#3498DB", penwidth=1.5];
+  }
+
+  subgraph cluster_3 {
+    label="Dependency";
+    style=filled; color="#3498DB"; fillcolor="#3498DB20";
+    "n2" [label="Dependency", shape=folder, fillcolor="#3498DB", penwidth=1.5];
+  subgraph cluster_4 {
+    label="ZSergeWebview";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n212" [label="ZSergeWebview", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_5 {
+    label="WryMobile";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n210" [label="WryMobile", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n283" [label="cargo (./Dependency/WryMobile): wry-mobile v0.1.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n211" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_6 {
+    label="Wry";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n207" [label="Wry", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  subgraph cluster_7 {
+    label="bench";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n208" [label="bench", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+    "n282" [label="cargo (./Dependency/Wry/bench): wry_bench v0.1.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n209" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  }
+
+  subgraph cluster_8 {
+    label="WorkflowTestBed";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n206" [label="WorkflowTestBed", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_9 {
+    label="WinRTNotification";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n205" [label="WinRTNotification", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_10 {
+    label="WinRes";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n201" [label="WinRes", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n280" [label="cargo (./Dependency/WinRes): tauri-winres v0.3.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+  subgraph cluster_11 {
+    label="example";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n203" [label="example", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+    "n281" [label="cargo (./Dependency/WinRes/example): winres-example v0.1.3", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n204" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+    "n202" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_12 {
+    label="Winit";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n199" [label="Winit", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n279" [label="cargo (./Dependency/Winit): tauri-winit v0.24.1", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n200" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_13 {
+    label="WindowVibrancy";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n198" [label="WindowVibrancy", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_14 {
+    label="WindowShadows";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n196" [label="WindowShadows", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n278" [label="cargo (./Dependency/WindowShadows): window-shadows v0.2.2", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n197" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_15 {
+    label="Win7Notifications";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n194" [label="Win7Notifications", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n277" [label="cargo (./Dependency/Win7Notifications): win7-notifications v0.4.5", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n195" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_16 {
+    label="WebView";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n190" [label="WebView", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n275" [label="cargo (./Dependency/WebView): web-view v0.6.2", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+  subgraph cluster_17 {
+    label="webview-sys";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n192" [label="webview-sys", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+    "n276" [label="cargo (./Dependency/WebView/webview-sys): webview-sys v0.5.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n193" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+    "n191" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_18 {
+    label="WebKit2GTKRS";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n186" [label="WebKit2GTKRS", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n273" [label="cargo (./Dependency/WebKit2GTKRS): webkit2gtk v2.0.1", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+  subgraph cluster_19 {
+    label="sys";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n188" [label="sys", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+    "n274" [label="cargo (./Dependency/WebKit2GTKRS/sys): webkit2gtk-sys v2.0.1", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n189" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+    "n187" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_20 {
+    label="VueCLIPluginTauri";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n185" [label="VueCLIPluginTauri", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_21 {
+    label="TypeDocusaurus";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n184" [label="TypeDocusaurus", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_22 {
+    label="TypeDocPluginMarkdown";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n182" [label="TypeDocPluginMarkdown", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  subgraph cluster_23 {
+    label="stub-project";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n183" [label="stub-project", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_24 {
+    label="TrayIcon";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n181" [label="TrayIcon", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_25 {
+    label="TauriWebpack";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n180" [label="TauriWebpack", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_26 {
+    label="TauriToml";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n179" [label="TauriToml", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_27 {
+    label="TauriTheia";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n176" [label="TauriTheia", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  subgraph cluster_28 {
+    label="src-tauri";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n177" [label="src-tauri", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+    "n272" [label="cargo (./Dependency/TauriTheia/src-tauri): theia v0.1.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n178" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  }
+
+  subgraph cluster_29 {
+    label="TauriStudio";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n173" [label="TauriStudio", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  subgraph cluster_30 {
+    label="i18n";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n175" [label="i18n", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_31 {
+    label="docs-generator";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n174" [label="docs-generator", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_32 {
+    label="TauriSearch";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n172" [label="TauriSearch", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_33 {
+    label="TauriPluginWindowState";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n170" [label="TauriPluginWindowState", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n271" [label="cargo (./Dependency/TauriPluginWindowState): tauri-plugin-window-state-read-only v0.1.1", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n171" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_34 {
+    label="TauriPluginWindow";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n168" [label="TauriPluginWindow", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n270" [label="cargo (./Dependency/TauriPluginWindow): tauri-plugin-window v2.0.0-alpha.2", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n169" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_35 {
+    label="TauriPluginWebSocket";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n166" [label="TauriPluginWebSocket", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n269" [label="cargo (./Dependency/TauriPluginWebSocket): tauri-plugin-websocket-read-only v0.0.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n167" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_36 {
+    label="TauriPluginUpload";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n164" [label="TauriPluginUpload", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n268" [label="cargo (./Dependency/TauriPluginUpload): tauri-plugin-upload-read-only v0.0.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n165" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_37 {
+    label="TauriPluginUpdater";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n163" [label="TauriPluginUpdater", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_38 {
+    label="TauriPluginStrongHold";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n161" [label="TauriPluginStrongHold", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n267" [label="cargo (./Dependency/TauriPluginStrongHold): tauri-plugin-stronghold-read-only v0.0.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n162" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_39 {
+    label="TauriPluginStore";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n159" [label="TauriPluginStore", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n266" [label="cargo (./Dependency/TauriPluginStore): tauri-plugin-store-read-only v0.0.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n160" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_40 {
+    label="TauriPluginSQL";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n157" [label="TauriPluginSQL", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n265" [label="cargo (./Dependency/TauriPluginSQL): tauri-plugin-sql-read-only v0.0.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n158" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_41 {
+    label="TauriPluginSingleInstance";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n155" [label="TauriPluginSingleInstance", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n264" [label="cargo (./Dependency/TauriPluginSingleInstance): tauri-plugin-single-instance-read-only v0.0.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n156" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_42 {
+    label="TauriPluginShell";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n153" [label="TauriPluginShell", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n263" [label="cargo (./Dependency/TauriPluginShell): tauri-plugin-shell-read-only v2.2.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n154" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_43 {
+    label="TauriPluginProcess";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n151" [label="TauriPluginProcess", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n262" [label="cargo (./Dependency/TauriPluginProcess): tauri-plugin-process-read-only v2.2.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n152" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_44 {
+    label="TauriPluginPositioner";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n149" [label="TauriPluginPositioner", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n261" [label="cargo (./Dependency/TauriPluginPositioner): tauri-plugin-positioner-read-only v1.0.5", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n150" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_45 {
+    label="TauriPluginPersistedScope";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n147" [label="TauriPluginPersistedScope", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n260" [label="cargo (./Dependency/TauriPluginPersistedScope): tauri-plugin-persisted-scope-read-only v0.1.1", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n148" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_46 {
+    label="TauriPluginOS";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n146" [label="TauriPluginOS", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_47 {
+    label="TauriPluginNotification";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n145" [label="TauriPluginNotification", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_48 {
+    label="TauriPluginLog";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n143" [label="TauriPluginLog", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n259" [label="cargo (./Dependency/TauriPluginLog): tauri-plugin-log-read-only v0.0.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n144" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_49 {
+    label="TauriPluginLocalhost";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n141" [label="TauriPluginLocalhost", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n258" [label="cargo (./Dependency/TauriPluginLocalhost): tauri-plugin-localhost-read-only v0.1.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n142" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_50 {
+    label="TauriPluginHTTP";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n140" [label="TauriPluginHTTP", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_51 {
+    label="TauriPluginGlobalShortCut";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n138" [label="TauriPluginGlobalShortCut", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n257" [label="cargo (./Dependency/TauriPluginGlobalShortCut): tauri-plugin-global-shortcut-read-only v2.2.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n139" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_52 {
+    label="TauriPluginFSWatch";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n136" [label="TauriPluginFSWatch", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n256" [label="cargo (./Dependency/TauriPluginFSWatch): tauri-plugin-fs-watch v0.0.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n137" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_53 {
+    label="TauriPluginFSExtra";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n134" [label="TauriPluginFSExtra", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n255" [label="cargo (./Dependency/TauriPluginFSExtra): tauri-plugin-fs-extra v0.0.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n135" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_54 {
+    label="TauriPluginFS";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n132" [label="TauriPluginFS", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n254" [label="cargo (./Dependency/TauriPluginFS): tauri-plugin-fs-read-only v2.2.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n133" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_55 {
+    label="TauriPluginDialog";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n130" [label="TauriPluginDialog", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n253" [label="cargo (./Dependency/TauriPluginDialog): tauri-plugin-dialog-read-only v2.2.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n131" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_56 {
+    label="TauriPluginClipboardManager";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n129" [label="TauriPluginClipboardManager", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_57 {
+    label="TauriPluginCLI";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n127" [label="TauriPluginCLI", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n252" [label="cargo (./Dependency/TauriPluginCLI): tauri-plugin-cli-read-only v2.2.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n128" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_58 {
+    label="TauriPluginAutostart";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n125" [label="TauriPluginAutostart", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n251" [label="cargo (./Dependency/TauriPluginAutostart): tauri-plugin-autostart-read-only v0.0.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n126" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_59 {
+    label="TauriPluginAuthenticator";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n123" [label="TauriPluginAuthenticator", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n250" [label="cargo (./Dependency/TauriPluginAuthenticator): tauri-plugin-authenticator v0.0.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n124" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_60 {
+    label="TauriPluginApp";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n121" [label="TauriPluginApp", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n249" [label="cargo (./Dependency/TauriPluginApp): tauri-plugin-app v2.0.0-alpha.2", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n122" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_61 {
+    label="TauriLand";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n120" [label="TauriLand", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_62 {
+    label="TauriInvokeHTTP";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n118" [label="TauriInvokeHTTP", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n248" [label="cargo (./Dependency/TauriInvokeHTTP): tauri-invoke-http v0.1.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n119" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_63 {
+    label="TauriInlinerRS";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n116" [label="TauriInlinerRS", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n247" [label="cargo (./Dependency/TauriInlinerRS): tauri-inliner v0.0.1", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n117" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_64 {
+    label="TauriInliner";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n115" [label="TauriInliner", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_65 {
+    label="TauriIncludeDir";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n108" [label="TauriIncludeDir", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  subgraph cluster_66 {
+    label="lib";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n113" [label="lib", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+    "n246" [label="cargo (./Dependency/TauriIncludeDir/lib): tauri_includedir v0.6.1", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n114" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_67 {
+    label="example";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n111" [label="example", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+    "n245" [label="cargo (./Dependency/TauriIncludeDir/example): foo v0.1.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n112" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_68 {
+    label="codegen";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n109" [label="codegen", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+    "n244" [label="cargo (./Dependency/TauriIncludeDir/codegen): tauri_includedir_codegen v0.6.3", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n110" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  }
+
+  subgraph cluster_69 {
+    label="TauriHotKeyRS";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n104" [label="TauriHotKeyRS", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n242" [label="cargo (./Dependency/TauriHotKeyRS): tauri-hotkey v0.1.2", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+  subgraph cluster_70 {
+    label="tauri-hotkey-sys";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n106" [label="tauri-hotkey-sys", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+    "n243" [label="cargo (./Dependency/TauriHotKeyRS/tauri-hotkey-sys): tauri-hotkey-sys v0.1.2", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n107" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+    "n105" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_71 {
+    label="TauriGitHubBot";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n103" [label="TauriGitHubBot", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_72 {
+    label="TauriForage";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n102" [label="TauriForage", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_73 {
+    label="TauriEGUI";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n100" [label="TauriEGUI", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n241" [label="cargo (./Dependency/TauriEGUI): tauri-egui v0.3.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n101" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_74 {
+    label="TauriDocs";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n99" [label="TauriDocs", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_75 {
+    label="TauriDiscordBot";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n98" [label="TauriDiscordBot", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_76 {
+    label="TauriDialogRS";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n94" [label="TauriDialogRS", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n239" [label="cargo (./Dependency/TauriDialogRS): tauri-dialog v0.1.1", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+  subgraph cluster_77 {
+    label="tauri-dialog-sys";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n96" [label="tauri-dialog-sys", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+    "n240" [label="cargo (./Dependency/TauriDialogRS/tauri-dialog-sys): tauri-dialog-sys v0.1.1", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n97" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+    "n95" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_78 {
+    label="TauriCon";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n93" [label="TauriCon", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_79 {
+    label="TauriBindgen";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n88" [label="TauriBindgen", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n237" [label="cargo (./Dependency/TauriBindgen): tauri-bindgen v0.0.1", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+  subgraph cluster_80 {
+    label="playground";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n90" [label="playground", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+    "n238" [label="cargo (./Dependency/TauriBindgen/playground): vanilla-example v0.1.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+  subgraph cluster_81 {
+    label="editor";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n92" [label="editor", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+    "n91" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+    "n89" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_82 {
+    label="TauriAction";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n86" [label="TauriAction", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  subgraph cluster_83 {
+    label="dist";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n87" [label="dist", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_84 {
+    label="Tauri";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n82" [label="Tauri", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n236" [label="npm (./Dependency/Tauri): @codeeditorland/workspace v0.0.1", shape=ellipse, fillcolor="#F4D03F", penwidth=1.5];
+    "n85" [label="package.json", shape=note, fillcolor="#FADBD8", penwidth=1];
+  subgraph cluster_85 {
+    label="bench";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n83" [label="bench", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+    "n235" [label="cargo (./Dependency/Tauri/bench): tauri_bench v0.1.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n84" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  }
+
+  subgraph cluster_86 {
+    label="Tao";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n80" [label="Tao", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  subgraph cluster_87 {
+    label="tao-macros";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n81" [label="tao-macros", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_88 {
+    label="Soup2RS";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n76" [label="Soup2RS", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n233" [label="cargo (./Dependency/Soup2RS): soup2 v0.2.1", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+  subgraph cluster_89 {
+    label="sys";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n78" [label="sys", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+    "n234" [label="cargo (./Dependency/Soup2RS/sys): soup2-sys v0.2.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n79" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+    "n77" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_90 {
+    label="SmokeTests";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n75" [label="SmokeTests", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_91 {
+    label="RustXCodePlugin";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n74" [label="RustXCodePlugin", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_92 {
+    label="RustICNS";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n72" [label="RustICNS", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n232" [label="cargo (./Dependency/RustICNS): tauri-icns v0.1.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n73" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_93 {
+    label="RustDocusaurus";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n70" [label="RustDocusaurus", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  subgraph cluster_94 {
+    label="github-action";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n71" [label="github-action", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_95 {
+    label="RFCs";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n69" [label="RFCs", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_96 {
+    label="Realworld";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n68" [label="Realworld", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_97 {
+    label="PluginsWorkspace";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n67" [label="PluginsWorkspace", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_98 {
+    label="NSISTauriUtils";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n66" [label="NSISTauriUtils", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_99 {
+    label="Muda";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n65" [label="Muda", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_100 {
+    label="MSEdgeDriverManifestCache";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n63" [label="MSEdgeDriverManifestCache", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n231" [label="cargo (./Dependency/MSEdgeDriverManifestCache): msedgedriver-manifest-cache v0.1.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n64" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_101 {
+    label="MeiliSearchDocsearch";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n61" [label="MeiliSearchDocsearch", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  subgraph cluster_102 {
+    label="example";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n62" [label="example", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_103 {
+    label="Meetings";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n60" [label="Meetings", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_104 {
+    label="LinuxDeployPluginGtk";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n59" [label="LinuxDeployPluginGtk", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_105 {
+    label="LinuxDeployPluginGstreamer";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n58" [label="LinuxDeployPluginGstreamer", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_106 {
+    label="LibAppIndicatorRS";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n54" [label="LibAppIndicatorRS", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n229" [label="cargo (./Dependency/LibAppIndicatorRS): libappindicator v0.9.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+  subgraph cluster_107 {
+    label="sys";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n56" [label="sys", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+    "n230" [label="cargo (./Dependency/LibAppIndicatorRS/sys): libappindicator-sys v0.9.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n57" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+    "n55" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_108 {
+    label="JavaScriptCoreRS";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n50" [label="JavaScriptCoreRS", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n227" [label="cargo (./Dependency/JavaScriptCoreRS): javascriptcore-rs v1.1.2", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+  subgraph cluster_109 {
+    label="sys";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n52" [label="sys", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+    "n228" [label="cargo (./Dependency/JavaScriptCoreRS/sys): javascriptcore-rs-sys v1.1.1", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n53" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+    "n51" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_110 {
+    label="GovernanceAndGuidance";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n46" [label="GovernanceAndGuidance", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  subgraph cluster_111 {
+    label="tools";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n47" [label="tools", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  subgraph cluster_112 {
+    label="count-votes";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n48" [label="count-votes", shape=folder, fillcolor="#21618C", penwidth=1.5];
+    "n226" [label="cargo (./Dependency/GovernanceAndGuidance/tools/count-votes): count-votes v0.1.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n49" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  }
+
+  }
+
+  subgraph cluster_113 {
+    label="Glutin";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n41" [label="Glutin", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  subgraph cluster_114 {
+    label="glutin_examples";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n44" [label="glutin_examples", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+    "n225" [label="cargo (./Dependency/Glutin/glutin_examples): glutin_examples v0.1.3", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n45" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_115 {
+    label="glutin";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n42" [label="glutin", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+    "n224" [label="cargo (./Dependency/Glutin/glutin): glutin_tao v0.33.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n43" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  }
+
+  subgraph cluster_116 {
+    label="GlobalHotKey";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n40" [label="GlobalHotKey", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_117 {
+    label="GirFiles";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n39" [label="GirFiles", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_118 {
+    label="GipFS";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n38" [label="GipFS", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_119 {
+    label="GHTangleRelease";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n37" [label="GHTangleRelease", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_120 {
+    label="FixPathENVRS";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n35" [label="FixPathENVRS", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n223" [label="cargo (./Dependency/FixPathENVRS): fix-path-env v0.0.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n36" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_121 {
+    label="Egui";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n34" [label="Egui", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_122 {
+    label="DocusaurusMeiliSearchIndexer";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n33" [label="DocusaurusMeiliSearchIndexer", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_123 {
+    label="DNSAutomation";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n32" [label="DNSAutomation", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_124 {
+    label="Deno";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n20" [label="Deno", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  subgraph cluster_125 {
+    label="tools";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n29" [label="tools", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  subgraph cluster_126 {
+    label="hyper_hello";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n30" [label="hyper_hello", shape=folder, fillcolor="#21618C", penwidth=1.5];
+    "n222" [label="cargo (./Dependency/Deno/tools/hyper_hello): hyper_hello v0.0.1", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n31" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  }
+
+  subgraph cluster_127 {
+    label="test_plugin";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n27" [label="test_plugin", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+    "n221" [label="cargo (./Dependency/Deno/test_plugin): test_plugin v0.0.1", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n28" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_128 {
+    label="deno_typescript";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n25" [label="deno_typescript", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+    "n220" [label="cargo (./Dependency/Deno/deno_typescript): deno_typescript v0.26.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n26" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_129 {
+    label="core";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n23" [label="core", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+    "n219" [label="cargo (./Dependency/Deno/core): deno v0.26.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n24" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_130 {
+    label="cli";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n21" [label="cli", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+    "n218" [label="cargo (./Dependency/Deno/cli): deno_cli v0.26.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n22" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  }
+
+  subgraph cluster_131 {
+    label="CreateTauriApp";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n15" [label="CreateTauriApp", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n216" [label="cargo (./Dependency/CreateTauriApp): create-tauri-app v4.5.9", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+  subgraph cluster_132 {
+    label="worker";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n19" [label="worker", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_133 {
+    label="node";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n17" [label="node", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+    "n217" [label="cargo (./Dependency/CreateTauriApp/node): create-tauri-app-node v0.0.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n18" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+    "n16" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_134 {
+    label="CreatePullRequest";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n14" [label="CreatePullRequest", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_135 {
+    label="CargoMobile2";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n12" [label="CargoMobile2", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n215" [label="cargo (./Dependency/CargoMobile2): cargo-mobile2 v0.17.5", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n13" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_136 {
+    label="BoardVoter";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n11" [label="BoardVoter", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_137 {
+    label="BinaryReleases";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n10" [label="BinaryReleases", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_138 {
+    label="BenchMarkResults";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n9" [label="BenchMarkResults", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_139 {
+    label="BenchMarkElectron";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n7" [label="BenchMarkElectron", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n214" [label="cargo (./Dependency/BenchMarkElectron): electron-bench v0.1.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n8" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_140 {
+    label="AwesomeTauri";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n6" [label="AwesomeTauri", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_141 {
+    label="Automation";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n5" [label="Automation", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_142 {
+    label="AppRun";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n4" [label="AppRun", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  subgraph cluster_143 {
+    label="ActionsNetlify";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n3" [label="ActionsNetlify", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_144 {
+    label="Cargo";
+    style=filled; color="#3498DB"; fillcolor="#3498DB20";
+    "n1" [label="Cargo", shape=folder, fillcolor="#3498DB", penwidth=1.5];
+  }
+
+  }
+
+  "n0" -> "n1" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n0" -> "n2" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n3" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n4" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n5" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n6" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n7" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n7" -> "n8" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n9" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n10" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n11" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n12" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n12" -> "n13" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n14" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n15" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n15" -> "n16" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n15" -> "n17" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n17" -> "n18" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n15" -> "n19" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n20" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n20" -> "n21" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n22" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n20" -> "n23" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n23" -> "n24" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n20" -> "n25" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n25" -> "n26" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n20" -> "n27" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n27" -> "n28" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n20" -> "n29" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n29" -> "n30" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n30" -> "n31" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n32" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n33" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n34" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n35" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n35" -> "n36" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n37" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n38" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n39" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n40" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n41" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n41" -> "n42" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n42" -> "n43" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n41" -> "n44" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n44" -> "n45" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n46" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n46" -> "n47" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n47" -> "n48" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n48" -> "n49" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n50" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n50" -> "n51" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n50" -> "n52" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n52" -> "n53" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n54" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n54" -> "n55" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n54" -> "n56" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n56" -> "n57" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n58" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n59" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n60" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n61" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n61" -> "n62" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n63" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n63" -> "n64" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n65" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n66" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n67" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n68" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n69" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n70" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n70" -> "n71" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n72" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n72" -> "n73" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n74" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n75" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n76" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n76" -> "n77" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n76" -> "n78" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n78" -> "n79" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n80" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n80" -> "n81" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n82" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n82" -> "n83" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n83" -> "n84" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n82" -> "n85" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n86" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n86" -> "n87" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n88" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n88" -> "n89" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n88" -> "n90" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n90" -> "n91" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n90" -> "n92" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n93" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n94" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n94" -> "n95" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n94" -> "n96" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n96" -> "n97" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n98" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n99" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n100" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n100" -> "n101" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n102" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n103" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n104" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n104" -> "n105" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n104" -> "n106" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n106" -> "n107" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n108" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n108" -> "n109" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n109" -> "n110" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n108" -> "n111" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n111" -> "n112" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n108" -> "n113" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n113" -> "n114" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n115" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n116" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n116" -> "n117" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n118" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n118" -> "n119" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n120" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n121" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n121" -> "n122" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n123" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n123" -> "n124" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n125" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n125" -> "n126" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n127" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n127" -> "n128" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n129" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n130" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n130" -> "n131" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n132" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n132" -> "n133" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n134" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n134" -> "n135" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n136" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n136" -> "n137" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n138" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n138" -> "n139" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n140" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n141" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n141" -> "n142" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n143" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n143" -> "n144" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n145" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n146" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n147" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n147" -> "n148" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n149" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n149" -> "n150" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n151" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n151" -> "n152" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n153" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n153" -> "n154" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n155" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n155" -> "n156" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n157" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n157" -> "n158" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n159" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n159" -> "n160" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n161" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n161" -> "n162" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n163" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n164" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n164" -> "n165" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n166" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n166" -> "n167" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n168" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n168" -> "n169" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n170" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n170" -> "n171" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n172" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n173" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n173" -> "n174" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n173" -> "n175" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n176" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n176" -> "n177" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n177" -> "n178" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n179" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n180" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n181" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n182" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n182" -> "n183" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n184" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n185" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n186" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n186" -> "n187" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n186" -> "n188" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n188" -> "n189" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n190" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n190" -> "n191" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n190" -> "n192" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n192" -> "n193" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n194" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n194" -> "n195" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n196" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n196" -> "n197" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n198" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n199" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n199" -> "n200" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n201" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n201" -> "n202" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n201" -> "n203" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n203" -> "n204" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n205" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n206" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n207" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n207" -> "n208" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n208" -> "n209" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n210" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n210" -> "n211" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n2" -> "n212" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n0" -> "n213" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n7" -> "n214" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n12" -> "n215" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n15" -> "n216" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n17" -> "n217" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n218" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n23" -> "n219" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n25" -> "n220" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n27" -> "n221" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n30" -> "n222" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n35" -> "n223" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n42" -> "n224" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n44" -> "n225" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n48" -> "n226" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n50" -> "n227" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n52" -> "n228" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n54" -> "n229" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n56" -> "n230" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n63" -> "n231" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n72" -> "n232" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n76" -> "n233" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n78" -> "n234" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n83" -> "n235" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n82" -> "n236" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n88" -> "n237" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n90" -> "n238" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n94" -> "n239" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n96" -> "n240" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n100" -> "n241" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n104" -> "n242" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n106" -> "n243" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n109" -> "n244" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n111" -> "n245" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n113" -> "n246" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n116" -> "n247" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n118" -> "n248" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n121" -> "n249" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n123" -> "n250" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n125" -> "n251" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n127" -> "n252" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n130" -> "n253" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n132" -> "n254" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n134" -> "n255" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n136" -> "n256" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n138" -> "n257" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n141" -> "n258" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n143" -> "n259" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n147" -> "n260" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n149" -> "n261" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n151" -> "n262" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n153" -> "n263" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n155" -> "n264" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n157" -> "n265" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n159" -> "n266" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n161" -> "n267" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n164" -> "n268" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n166" -> "n269" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n168" -> "n270" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n170" -> "n271" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n177" -> "n272" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n186" -> "n273" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n188" -> "n274" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n190" -> "n275" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n192" -> "n276" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n194" -> "n277" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n196" -> "n278" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n199" -> "n279" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n201" -> "n280" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n203" -> "n281" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n208" -> "n282" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n210" -> "n283" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  subgraph cluster_legend {
+    label="Legend"; fontsize=14; style=dashed; color=gray;
+    "dir" [label="Directory", shape=folder, fillcolor="#5DADE2"];
+    "file" [label="File", shape=note, fillcolor="#FADBD8"];
+    "pkg" [label="Package", shape=ellipse, fillcolor="#EB984E"];
+    "ext" [label="External", shape=trapezium, fillcolor="#EC7063"];
+    "dir" -> "file" [label="Contain", style=solid, color=blue];
+    "pkg" -> "ext" [label="Dependency", style=dashed, color=red];
+  }
+}
