@@ -68,7 +68,7 @@
 			<br />
 			<a href="https://GitHub.Com/CodeEditorLand/ActionsNetlify" target="_blank">
 				<b>
-					🚀 Netlify deploy from GitHub Actions
+					🚀&#x2001;Netlify&#x2001;deploy&#x2001;from&#x2001;GitHub&#x2001;Actions
 				</b>
 			</a>
 		</td>
@@ -147,7 +147,7 @@
 							<br />
 							<a href="https://GitHub.Com/CodeEditorLand/Automation" target="_blank">
 								<b>
-									GitHub Actions available to the tauri-apps organization
+									GitHub&#x2001;Actions&#x2001;available&#x2001;to&#x2001;the&#x2001;tauri-apps&#x2001;organization
 								</b>
 							</a>
 						</td>
@@ -188,7 +188,7 @@
 							<br />
 							<a href="https://GitHub.Com/CodeEditorLand/AwesomeTauri" target="_blank">
 								<b>
-									🚀 Awesome Tauri Apps, Plugins and Resources
+									🚀&#x2001;Awesome&#x2001;Tauri&#x2001;Apps,&#x2001;Plugins&#x2001;and&#x2001;Resources
 								</b>
 							</a>
 						</td>
@@ -315,7 +315,7 @@
 							<br />
 							<a href="https://GitHub.Com/CodeEditorLand/BinaryReleases" target="_blank">
 								<b>
-									Prebuilt binaries for Tauri projects
+									Prebuilt&#x2001;binaries&#x2001;for&#x2001;Tauri&#x2001;projects
 								</b>
 							</a>
 						</td>
@@ -399,7 +399,7 @@
 							<br />
 							<a href="https://GitHub.Com/CodeEditorLand/CargoMobile2" target="_blank">
 								<b>
-									Rust on mobile made easy!
+									Rust&#x2001;on&#x2001;mobile&#x2001;made&#x2001;easy!
 								</b>
 							</a>
 						</td>
@@ -440,7 +440,7 @@
 							<br />
 							<a href="https://GitHub.Com/CodeEditorLand/CreatePullRequest" target="_blank">
 								<b>
-									A GitHub action to create a pull request for changes to your repository in the actions workspace
+									A&#x2001;GitHub&#x2001;action&#x2001;to&#x2001;create&#x2001;a&#x2001;pull&#x2001;request&#x2001;for&#x2001;changes&#x2001;to&#x2001;your&#x2001;repository&#x2001;in&#x2001;the&#x2001;actions&#x2001;workspace
 								</b>
 							</a>
 						</td>
@@ -483,7 +483,7 @@
 							<br />
 							<a href="https://GitHub.Com/CodeEditorLand/CreateTauriApp" target="_blank">
 								<b>
-									Rapidly scaffold out a new tauri app project
+									Rapidly&#x2001;scaffold&#x2001;out&#x2001;a&#x2001;new&#x2001;tauri&#x2001;app&#x2001;project
 								</b>
 							</a>
 						</td>
@@ -524,7 +524,7 @@
 							<br />
 							<a href="https://GitHub.Com/CodeEditorLand/Deno" target="_blank">
 								<b>
-									A secure JavaScript and TypeScript runtime
+									A&#x2001;secure&#x2001;JavaScript&#x2001;and&#x2001;TypeScript&#x2001;runtime
 								</b>
 							</a>
 						</td>
@@ -567,8 +567,8 @@
 							<br />
 							<a href="https://GitHub.Com/CodeEditorLand/DNSAutomation" target="_blank">
 								<b>
-									This repo will manage DNS records automagically Implementing Infrastructure as Code
-					GitOps practices
+									This&#x2001;repo&#x2001;will&#x2001;manage&#x2001;DNS&#x2001;records&#x2001;automagically&#x2001;Implementing&#x2001;Infrastructure&#x2001;as&#x2001;Code
+					GitOps&#x2001;practices
 								</b>
 							</a>
 						</td>
@@ -652,7 +652,7 @@
 							<br />
 							<a href="https://GitHub.Com/CodeEditorLand/Egui" target="_blank">
 								<b>
-									egui: an easy-to-use immediate mode GUI in pure Rust
+									egui:&#x2001;an&#x2001;easy-to-use&#x2001;immediate&#x2001;mode&#x2001;GUI&#x2001;in&#x2001;pure&#x2001;Rust
 								</b>
 							</a>
 						</td>
@@ -777,7 +777,7 @@
 							<br />
 							<a href="https://GitHub.Com/CodeEditorLand/GipFS" target="_blank">
 								<b>
-									Git ops with IPFS
+									Git&#x2001;ops&#x2001;with&#x2001;IPFS
 								</b>
 							</a>
 						</td>
@@ -861,7 +861,7 @@
 							<br />
 							<a href="https://GitHub.Com/CodeEditorLand/GlobalHotKey" target="_blank">
 								<b>
-									Global hotkeys for Desktop Applications
+									Global&#x2001;hotkeys&#x2001;for&#x2001;Desktop&#x2001;Applications
 								</b>
 							</a>
 						</td>
@@ -904,7 +904,7 @@
 							<br />
 							<a href="https://GitHub.Com/CodeEditorLand/Glutin" target="_blank">
 								<b>
-									A low-level library for OpenGL context creation, written in pure Rust
+									A&#x2001;low-level&#x2001;library&#x2001;for&#x2001;OpenGL&#x2001;context&#x2001;creation,&#x2001;written&#x2001;in&#x2001;pure&#x2001;Rust
 								</b>
 							</a>
 						</td>
@@ -988,7 +988,7 @@
 							<br />
 							<a href="https://GitHub.Com/CodeEditorLand/JavaScriptCoreRS" target="_blank">
 								<b>
-									JavaScriptCore bindings and wrappers for Rust
+									JavaScriptCore&#x2001;bindings&#x2001;and&#x2001;wrappers&#x2001;for&#x2001;Rust
 								</b>
 							</a>
 						</td>
@@ -1029,7 +1029,7 @@
 							<br />
 							<a href="https://GitHub.Com/CodeEditorLand/LibAppIndicatorRS" target="_blank">
 								<b>
-									Rust safe bindings for the libappindicator library
+									Rust&#x2001;safe&#x2001;bindings&#x2001;for&#x2001;the&#x2001;libappindicator&#x2001;library
 								</b>
 							</a>
 						</td>
@@ -1072,7 +1072,7 @@
 							<br />
 							<a href="https://GitHub.Com/CodeEditorLand/LinuxDeployPluginGstreamer" target="_blank">
 								<b>
-									Bundles GStreamer plugins into AppDirs
+									Bundles&#x2001;GStreamer&#x2001;plugins&#x2001;into&#x2001;AppDirs
 								</b>
 							</a>
 						</td>
@@ -1113,7 +1113,7 @@
 							<br />
 							<a href="https://GitHub.Com/CodeEditorLand/LinuxDeployPluginGtk" target="_blank">
 								<b>
-									Gtk+2⁄3 plugin for linuxdeploy Bundles Gtk+ resources, GLib schemas, and a lot more
+									Gtk+2⁄3&#x2001;plugin&#x2001;for&#x2001;linuxdeploy&#x2001;Bundles&#x2001;Gtk+&#x2001;resources,&#x2001;GLib&#x2001;schemas,&#x2001;and&#x2001;a&#x2001;lot&#x2001;more
 								</b>
 							</a>
 						</td>
@@ -1197,7 +1197,7 @@
 							<br />
 							<a href="https://GitHub.Com/CodeEditorLand/MeiliSearchDocsearch" target="_blank">
 								<b>
-									A quick search component for meilisearch, inspired by algolia⁄docsearch
+									A&#x2001;quick&#x2001;search&#x2001;component&#x2001;for&#x2001;meilisearch,&#x2001;inspired&#x2001;by&#x2001;algolia⁄docsearch
 								</b>
 							</a>
 						</td>
@@ -1240,7 +1240,7 @@
 							<br />
 							<a href="https://GitHub.Com/CodeEditorLand/MSEdgeDriverManifestCache" target="_blank">
 								<b>
-									A caching service (in the form of a static site) of the msedgedriver version manifest file that seems to go missing a lot
+									A&#x2001;caching&#x2001;service&#x2001;(in&#x2001;the&#x2001;form&#x2001;of&#x2001;a&#x2001;static&#x2001;site)&#x2001;of&#x2001;the&#x2001;msedgedriver&#x2001;version&#x2001;manifest&#x2001;file&#x2001;that&#x2001;seems&#x2001;to&#x2001;go&#x2001;missing&#x2001;a&#x2001;lot
 								</b>
 							</a>
 						</td>
@@ -1281,7 +1281,7 @@
 							<br />
 							<a href="https://GitHub.Com/CodeEditorLand/Muda" target="_blank">
 								<b>
-									Menu Utilities for Desktop Applications in Rust
+									Menu&#x2001;Utilities&#x2001;for&#x2001;Desktop&#x2001;Applications&#x2001;in&#x2001;Rust
 								</b>
 							</a>
 						</td>
@@ -1324,7 +1324,7 @@
 							<br />
 							<a href="https://GitHub.Com/CodeEditorLand/NSISTauriUtils" target="_blank">
 								<b>
-									A collection of NSIS plugins written in rust
+									A&#x2001;collection&#x2001;of&#x2001;NSIS&#x2001;plugins&#x2001;written&#x2001;in&#x2001;rust
 								</b>
 							</a>
 						</td>
@@ -1365,7 +1365,7 @@
 							<br />
 							<a href="https://GitHub.Com/CodeEditorLand/PluginsWorkspace" target="_blank">
 								<b>
-									All of the official Tauri plugins in one place!
+									All&#x2001;of&#x2001;the&#x2001;official&#x2001;Tauri&#x2001;plugins&#x2001;in&#x2001;one&#x2001;place!
 								</b>
 							</a>
 						</td>
@@ -1408,7 +1408,7 @@
 							<br />
 							<a href="https://GitHub.Com/CodeEditorLand/Realworld" target="_blank">
 								<b>
-									Realworld apps made with Tauri: Proof of Agnosis
+									Realworld&#x2001;apps&#x2001;made&#x2001;with&#x2001;Tauri:&#x2001;Proof&#x2001;of&#x2001;Agnosis
 								</b>
 							</a>
 						</td>
@@ -1449,7 +1449,7 @@
 							<br />
 							<a href="https://GitHub.Com/CodeEditorLand/RFCs" target="_blank">
 								<b>
-									Request For Comments for the Tauri project
+									Request&#x2001;For&#x2001;Comments&#x2001;for&#x2001;the&#x2001;Tauri&#x2001;project
 								</b>
 							</a>
 						</td>
@@ -1492,7 +1492,7 @@
 							<br />
 							<a href="https://GitHub.Com/CodeEditorLand/RustDocusaurus" target="_blank">
 								<b>
-									POCturning rustdoc generated docs into Docusaurus (MD + sidebar)
+									POCturning&#x2001;rustdoc&#x2001;generated&#x2001;docs&#x2001;into&#x2001;Docusaurus&#x2001;(MD&#x2001;+&#x2001;sidebar)
 								</b>
 							</a>
 						</td>
@@ -1533,7 +1533,7 @@
 							<br />
 							<a href="https://GitHub.Com/CodeEditorLand/RustICNS" target="_blank">
 								<b>
-									Rust library for encoding⁄decoding Apple Icon Image (icns) files
+									Rust&#x2001;library&#x2001;for&#x2001;encoding⁄decoding&#x2001;Apple&#x2001;Icon&#x2001;Image&#x2001;(icns)&#x2001;files
 								</b>
 							</a>
 						</td>
@@ -1576,7 +1576,7 @@
 							<br />
 							<a href="https://GitHub.Com/CodeEditorLand/RustXCodePlugin" target="_blank">
 								<b>
-									This is a bare bones xcode plugin for the rust language It enables breakpoints to work
+									This&#x2001;is&#x2001;a&#x2001;bare&#x2001;bones&#x2001;xcode&#x2001;plugin&#x2001;for&#x2001;the&#x2001;rust&#x2001;language&#x2001;It&#x2001;enables&#x2001;breakpoints&#x2001;to&#x2001;work
 								</b>
 							</a>
 						</td>
@@ -1617,7 +1617,7 @@
 							<br />
 							<a href="https://GitHub.Com/CodeEditorLand/SmokeTests" target="_blank">
 								<b>
-									A collection of frameworks used as a suite of smoke-tests for tauri
+									A&#x2001;collection&#x2001;of&#x2001;frameworks&#x2001;used&#x2001;as&#x2001;a&#x2001;suite&#x2001;of&#x2001;smoke-tests&#x2001;for&#x2001;tauri
 								</b>
 							</a>
 						</td>
@@ -1701,7 +1701,7 @@
 							<br />
 							<a href="https://GitHub.Com/CodeEditorLand/Tao" target="_blank">
 								<b>
-									The TAO of cross-platform windowing A library in Rust built for Tauri
+									The&#x2001;TAO&#x2001;of&#x2001;cross-platform&#x2001;windowing&#x2001;A&#x2001;library&#x2001;in&#x2001;Rust&#x2001;built&#x2001;for&#x2001;Tauri
 								</b>
 							</a>
 						</td>
@@ -1744,7 +1744,7 @@
 							<br />
 							<a href="https://GitHub.Com/CodeEditorLand/Tauri" target="_blank">
 								<b>
-									Build smaller, faster, and more secure desktop applications with a web frontend
+									Build&#x2001;smaller,&#x2001;faster,&#x2001;and&#x2001;more&#x2001;secure&#x2001;desktop&#x2001;applications&#x2001;with&#x2001;a&#x2001;web&#x2001;frontend
 								</b>
 							</a>
 						</td>
@@ -1823,7 +1823,7 @@
 											<br />
 											<a href="https://GitHub.Com/CodeEditorLand/TauriAction" target="_blank">
 												<b>
-													Build your Web application as a Tauri binary for macOS, Linux and Windows
+													Build&#x2001;your&#x2001;Web&#x2001;application&#x2001;as&#x2001;a&#x2001;Tauri&#x2001;binary&#x2001;for&#x2001;macOS,&#x2001;Linux&#x2001;and&#x2001;Windows
 												</b>
 											</a>
 										</td>
@@ -1864,7 +1864,7 @@
 											<br />
 											<a href="https://GitHub.Com/CodeEditorLand/TauriBindgen" target="_blank">
 												<b>
-													Typesafe language bindings generator for the Tauri IPC bridge
+													Typesafe&#x2001;language&#x2001;bindings&#x2001;generator&#x2001;for&#x2001;the&#x2001;Tauri&#x2001;IPC&#x2001;bridge
 												</b>
 											</a>
 										</td>
@@ -1907,7 +1907,7 @@
 											<br />
 											<a href="https://GitHub.Com/CodeEditorLand/TauriCon" target="_blank">
 												<b>
-													Make icons for your tauri app with nodejs
+													Make&#x2001;icons&#x2001;for&#x2001;your&#x2001;tauri&#x2001;app&#x2001;with&#x2001;nodejs
 												</b>
 											</a>
 										</td>
@@ -1992,7 +1992,7 @@
 											<a href="https://GitHub.Com/CodeEditorLand/TauriDiscordBot" target="_blank">
 												<b>
 													Tauri
-					s Discord Bot
+					s&#x2001;Discord&#x2001;Bot
 												</b>
 											</a>
 										</td>
@@ -2033,7 +2033,7 @@
 											<br />
 											<a href="https://GitHub.Com/CodeEditorLand/TauriDocs" target="_blank">
 												<b>
-													The source for all Tauri project documentation
+													The&#x2001;source&#x2001;for&#x2001;all&#x2001;Tauri&#x2001;project&#x2001;documentation
 												</b>
 											</a>
 										</td>
@@ -2117,7 +2117,7 @@
 											<br />
 											<a href="https://GitHub.Com/CodeEditorLand/TauriForage" target="_blank">
 												<b>
-													Currified localForage with a side of extras
+													Currified&#x2001;localForage&#x2001;with&#x2001;a&#x2001;side&#x2001;of&#x2001;extras
 												</b>
 											</a>
 										</td>
@@ -2160,7 +2160,7 @@
 											<br />
 											<a href="https://GitHub.Com/CodeEditorLand/TauriGitHubBot" target="_blank">
 												<b>
-													A GitHub bot for tauri-apps org to automate various tasks and intended to used only by tauri-apps org members
+													A&#x2001;GitHub&#x2001;bot&#x2001;for&#x2001;tauri-apps&#x2001;org&#x2001;to&#x2001;automate&#x2001;various&#x2001;tasks&#x2001;and&#x2001;intended&#x2001;to&#x2001;used&#x2001;only&#x2001;by&#x2001;tauri-apps&#x2001;org&#x2001;members
 												</b>
 											</a>
 										</td>
@@ -2285,7 +2285,7 @@
 											<br />
 											<a href="https://GitHub.Com/CodeEditorLand/TauriInliner" target="_blank">
 												<b>
-													Node utility to inline images, CSS and JavaScript for a web page useful for mobile sites
+													Node&#x2001;utility&#x2001;to&#x2001;inline&#x2001;images,&#x2001;CSS&#x2001;and&#x2001;JavaScript&#x2001;for&#x2001;a&#x2001;web&#x2001;page&#x2001;useful&#x2001;for&#x2001;mobile&#x2001;sites
 												</b>
 											</a>
 										</td>
@@ -2369,7 +2369,7 @@
 											<br />
 											<a href="https://GitHub.Com/CodeEditorLand/TauriInvokeHTTP" target="_blank">
 												<b>
-													A custom invoke system for Tauri that leverages a localhost server
+													A&#x2001;custom&#x2001;invoke&#x2001;system&#x2001;for&#x2001;Tauri&#x2001;that&#x2001;leverages&#x2001;a&#x2001;localhost&#x2001;server
 												</b>
 											</a>
 										</td>
@@ -2412,7 +2412,7 @@
 											<br />
 											<a href="https://GitHub.Com/CodeEditorLand/TauriLand" target="_blank">
 												<b>
-													Visual Studio Code Extension for Tauri apps development
+													Visual&#x2001;Studio&#x2001;Code&#x2001;Extension&#x2001;for&#x2001;Tauri&#x2001;apps&#x2001;development
 												</b>
 											</a>
 										</td>
@@ -2453,7 +2453,7 @@
 											<br />
 											<a href="https://GitHub.Com/CodeEditorLand/TauriPluginApp" target="_blank">
 												<b>
-													[READ ONLY] This repository is a mirror, for issue tracking and development head to: https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
+													[READ&#x2001;ONLY]&#x2001;This&#x2001;repository&#x2001;is&#x2001;a&#x2001;mirror,&#x2001;for&#x2001;issue&#x2001;tracking&#x2001;and&#x2001;development&#x2001;head&#x2001;to:&#x2001;https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
 												</b>
 											</a>
 										</td>
@@ -2496,7 +2496,7 @@
 											<br />
 											<a href="https://GitHub.Com/CodeEditorLand/TauriPluginAuthenticator" target="_blank">
 												<b>
-													[READ ONLY] This repository is a mirror, for issue tracking and development head to: https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
+													[READ&#x2001;ONLY]&#x2001;This&#x2001;repository&#x2001;is&#x2001;a&#x2001;mirror,&#x2001;for&#x2001;issue&#x2001;tracking&#x2001;and&#x2001;development&#x2001;head&#x2001;to:&#x2001;https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
 												</b>
 											</a>
 										</td>
@@ -2537,7 +2537,7 @@
 											<br />
 											<a href="https://GitHub.Com/CodeEditorLand/TauriPluginAutostart" target="_blank">
 												<b>
-													[READ ONLY] This repository is a mirror, for issue tracking and development head to: https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
+													[READ&#x2001;ONLY]&#x2001;This&#x2001;repository&#x2001;is&#x2001;a&#x2001;mirror,&#x2001;for&#x2001;issue&#x2001;tracking&#x2001;and&#x2001;development&#x2001;head&#x2001;to:&#x2001;https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
 												</b>
 											</a>
 										</td>
@@ -2580,7 +2580,7 @@
 											<br />
 											<a href="https://GitHub.Com/CodeEditorLand/TauriPluginCLI" target="_blank">
 												<b>
-													[READ ONLY] This repository is a mirror, for issue tracking and development head to: https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
+													[READ&#x2001;ONLY]&#x2001;This&#x2001;repository&#x2001;is&#x2001;a&#x2001;mirror,&#x2001;for&#x2001;issue&#x2001;tracking&#x2001;and&#x2001;development&#x2001;head&#x2001;to:&#x2001;https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
 												</b>
 											</a>
 										</td>
@@ -2621,7 +2621,7 @@
 											<br />
 											<a href="https://GitHub.Com/CodeEditorLand/TauriPluginClipboardManager" target="_blank">
 												<b>
-													[READ ONLY] This repository is a mirror, for issue tracking and development head to: https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
+													[READ&#x2001;ONLY]&#x2001;This&#x2001;repository&#x2001;is&#x2001;a&#x2001;mirror,&#x2001;for&#x2001;issue&#x2001;tracking&#x2001;and&#x2001;development&#x2001;head&#x2001;to:&#x2001;https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
 												</b>
 											</a>
 										</td>
@@ -2664,7 +2664,7 @@
 											<br />
 											<a href="https://GitHub.Com/CodeEditorLand/TauriPluginDialog" target="_blank">
 												<b>
-													[READ ONLY] This repository is a mirror, for issue tracking and development head to: https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
+													[READ&#x2001;ONLY]&#x2001;This&#x2001;repository&#x2001;is&#x2001;a&#x2001;mirror,&#x2001;for&#x2001;issue&#x2001;tracking&#x2001;and&#x2001;development&#x2001;head&#x2001;to:&#x2001;https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
 												</b>
 											</a>
 										</td>
@@ -2705,7 +2705,7 @@
 											<br />
 											<a href="https://GitHub.Com/CodeEditorLand/TauriPluginFS" target="_blank">
 												<b>
-													[READ ONLY] This repository is a mirror, for issue tracking and development head to: https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
+													[READ&#x2001;ONLY]&#x2001;This&#x2001;repository&#x2001;is&#x2001;a&#x2001;mirror,&#x2001;for&#x2001;issue&#x2001;tracking&#x2001;and&#x2001;development&#x2001;head&#x2001;to:&#x2001;https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
 												</b>
 											</a>
 										</td>
@@ -2748,7 +2748,7 @@
 											<br />
 											<a href="https://GitHub.Com/CodeEditorLand/TauriPluginFSExtra" target="_blank">
 												<b>
-													[READ ONLY] This repository is a mirror, for issue tracking and development head to: https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
+													[READ&#x2001;ONLY]&#x2001;This&#x2001;repository&#x2001;is&#x2001;a&#x2001;mirror,&#x2001;for&#x2001;issue&#x2001;tracking&#x2001;and&#x2001;development&#x2001;head&#x2001;to:&#x2001;https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
 												</b>
 											</a>
 										</td>
@@ -2789,7 +2789,7 @@
 											<br />
 											<a href="https://GitHub.Com/CodeEditorLand/TauriPluginFSWatch" target="_blank">
 												<b>
-													[READ ONLY] This repository is a mirror, for issue tracking and development head to: https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
+													[READ&#x2001;ONLY]&#x2001;This&#x2001;repository&#x2001;is&#x2001;a&#x2001;mirror,&#x2001;for&#x2001;issue&#x2001;tracking&#x2001;and&#x2001;development&#x2001;head&#x2001;to:&#x2001;https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
 												</b>
 											</a>
 										</td>
@@ -2832,7 +2832,7 @@
 											<br />
 											<a href="https://GitHub.Com/CodeEditorLand/TauriPluginGlobalShortCut" target="_blank">
 												<b>
-													[READ ONLY] This repository is a mirror, for issue tracking and development head to: https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
+													[READ&#x2001;ONLY]&#x2001;This&#x2001;repository&#x2001;is&#x2001;a&#x2001;mirror,&#x2001;for&#x2001;issue&#x2001;tracking&#x2001;and&#x2001;development&#x2001;head&#x2001;to:&#x2001;https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
 												</b>
 											</a>
 										</td>
@@ -2911,7 +2911,7 @@
 															<br />
 															<a href="https://GitHub.Com/CodeEditorLand/TauriPluginLocalhost" target="_blank">
 																<b>
-																	[READ ONLY] This repository is a mirror, for issue tracking and development head to: https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
+																	[READ&#x2001;ONLY]&#x2001;This&#x2001;repository&#x2001;is&#x2001;a&#x2001;mirror,&#x2001;for&#x2001;issue&#x2001;tracking&#x2001;and&#x2001;development&#x2001;head&#x2001;to:&#x2001;https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
 																</b>
 															</a>
 														</td>
@@ -2952,7 +2952,7 @@
 															<br />
 															<a href="https://GitHub.Com/CodeEditorLand/TauriPluginLog" target="_blank">
 																<b>
-																	[READ ONLY] This repository is a mirror, for issue tracking and development head to: https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
+																	[READ&#x2001;ONLY]&#x2001;This&#x2001;repository&#x2001;is&#x2001;a&#x2001;mirror,&#x2001;for&#x2001;issue&#x2001;tracking&#x2001;and&#x2001;development&#x2001;head&#x2001;to:&#x2001;https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
 																</b>
 															</a>
 														</td>
@@ -2995,7 +2995,7 @@
 															<br />
 															<a href="https://GitHub.Com/CodeEditorLand/TauriPluginNotification" target="_blank">
 																<b>
-																	[READ ONLY] This repository is a mirror, for issue tracking and development head to: https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
+																	[READ&#x2001;ONLY]&#x2001;This&#x2001;repository&#x2001;is&#x2001;a&#x2001;mirror,&#x2001;for&#x2001;issue&#x2001;tracking&#x2001;and&#x2001;development&#x2001;head&#x2001;to:&#x2001;https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
 																</b>
 															</a>
 														</td>
@@ -3036,7 +3036,7 @@
 															<br />
 															<a href="https://GitHub.Com/CodeEditorLand/TauriPluginOS" target="_blank">
 																<b>
-																	[READ ONLY] This repository is a mirror, for issue tracking and development head to: https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
+																	[READ&#x2001;ONLY]&#x2001;This&#x2001;repository&#x2001;is&#x2001;a&#x2001;mirror,&#x2001;for&#x2001;issue&#x2001;tracking&#x2001;and&#x2001;development&#x2001;head&#x2001;to:&#x2001;https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
 																</b>
 															</a>
 														</td>
@@ -3079,7 +3079,7 @@
 															<br />
 															<a href="https://GitHub.Com/CodeEditorLand/TauriPluginPersistedScope" target="_blank">
 																<b>
-																	[READ ONLY] This repository is a mirror, for issue tracking and development head to: https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
+																	[READ&#x2001;ONLY]&#x2001;This&#x2001;repository&#x2001;is&#x2001;a&#x2001;mirror,&#x2001;for&#x2001;issue&#x2001;tracking&#x2001;and&#x2001;development&#x2001;head&#x2001;to:&#x2001;https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
 																</b>
 															</a>
 														</td>
@@ -3120,7 +3120,7 @@
 															<br />
 															<a href="https://GitHub.Com/CodeEditorLand/TauriPluginPositioner" target="_blank">
 																<b>
-																	[READ ONLY] This repository is a mirror, for issue tracking and development head to: https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
+																	[READ&#x2001;ONLY]&#x2001;This&#x2001;repository&#x2001;is&#x2001;a&#x2001;mirror,&#x2001;for&#x2001;issue&#x2001;tracking&#x2001;and&#x2001;development&#x2001;head&#x2001;to:&#x2001;https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
 																</b>
 															</a>
 														</td>
@@ -3163,7 +3163,7 @@
 															<br />
 															<a href="https://GitHub.Com/CodeEditorLand/TauriPluginProcess" target="_blank">
 																<b>
-																	[READ ONLY] This repository is a mirror, for issue tracking and development head to: https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
+																	[READ&#x2001;ONLY]&#x2001;This&#x2001;repository&#x2001;is&#x2001;a&#x2001;mirror,&#x2001;for&#x2001;issue&#x2001;tracking&#x2001;and&#x2001;development&#x2001;head&#x2001;to:&#x2001;https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
 																</b>
 															</a>
 														</td>
@@ -3204,7 +3204,7 @@
 															<br />
 															<a href="https://GitHub.Com/CodeEditorLand/TauriPluginShell" target="_blank">
 																<b>
-																	[READ ONLY] This repository is a mirror, for issue tracking and development head to: https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
+																	[READ&#x2001;ONLY]&#x2001;This&#x2001;repository&#x2001;is&#x2001;a&#x2001;mirror,&#x2001;for&#x2001;issue&#x2001;tracking&#x2001;and&#x2001;development&#x2001;head&#x2001;to:&#x2001;https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
 																</b>
 															</a>
 														</td>
@@ -3247,7 +3247,7 @@
 															<br />
 															<a href="https://GitHub.Com/CodeEditorLand/TauriPluginSingleInstance" target="_blank">
 																<b>
-																	[DEPRECATED] Please use the plugin from https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace instead
+																	[DEPRECATED]&#x2001;Please&#x2001;use&#x2001;the&#x2001;plugin&#x2001;from&#x2001;https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace&#x2001;instead
 																</b>
 															</a>
 														</td>
@@ -3288,7 +3288,7 @@
 															<br />
 															<a href="https://GitHub.Com/CodeEditorLand/TauriPluginSQL" target="_blank">
 																<b>
-																	[READ ONLY] This repository is a mirror, for issue tracking and development head to: https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
+																	[READ&#x2001;ONLY]&#x2001;This&#x2001;repository&#x2001;is&#x2001;a&#x2001;mirror,&#x2001;for&#x2001;issue&#x2001;tracking&#x2001;and&#x2001;development&#x2001;head&#x2001;to:&#x2001;https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
 																</b>
 															</a>
 														</td>
@@ -3331,7 +3331,7 @@
 															<br />
 															<a href="https://GitHub.Com/CodeEditorLand/TauriPluginStore" target="_blank">
 																<b>
-																	[READ ONLY] This repository is a mirror, for issue tracking and development head to: https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
+																	[READ&#x2001;ONLY]&#x2001;This&#x2001;repository&#x2001;is&#x2001;a&#x2001;mirror,&#x2001;for&#x2001;issue&#x2001;tracking&#x2001;and&#x2001;development&#x2001;head&#x2001;to:&#x2001;https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
 																</b>
 															</a>
 														</td>
@@ -3372,7 +3372,7 @@
 															<br />
 															<a href="https://GitHub.Com/CodeEditorLand/TauriPluginStrongHold" target="_blank">
 																<b>
-																	[READ ONLY] This repository is a mirror, for issue tracking and development head to: https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
+																	[READ&#x2001;ONLY]&#x2001;This&#x2001;repository&#x2001;is&#x2001;a&#x2001;mirror,&#x2001;for&#x2001;issue&#x2001;tracking&#x2001;and&#x2001;development&#x2001;head&#x2001;to:&#x2001;https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
 																</b>
 															</a>
 														</td>
@@ -3415,7 +3415,7 @@
 															<br />
 															<a href="https://GitHub.Com/CodeEditorLand/TauriPluginUpdater" target="_blank">
 																<b>
-																	[READ ONLY] This repository is a mirror, for issue tracking and development head to: https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
+																	[READ&#x2001;ONLY]&#x2001;This&#x2001;repository&#x2001;is&#x2001;a&#x2001;mirror,&#x2001;for&#x2001;issue&#x2001;tracking&#x2001;and&#x2001;development&#x2001;head&#x2001;to:&#x2001;https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
 																</b>
 															</a>
 														</td>
@@ -3456,7 +3456,7 @@
 															<br />
 															<a href="https://GitHub.Com/CodeEditorLand/TauriPluginUpload" target="_blank">
 																<b>
-																	[READ ONLY] This repository is a mirror, for issue tracking and development head to: https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
+																	[READ&#x2001;ONLY]&#x2001;This&#x2001;repository&#x2001;is&#x2001;a&#x2001;mirror,&#x2001;for&#x2001;issue&#x2001;tracking&#x2001;and&#x2001;development&#x2001;head&#x2001;to:&#x2001;https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
 																</b>
 															</a>
 														</td>
@@ -3536,7 +3536,7 @@
 																		<br />
 																		<a href="https://GitHub.Com/CodeEditorLand/TauriPluginWindow" target="_blank">
 																			<b>
-																				[READ ONLY] This repository is a mirror, for issue tracking and development head to: https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
+																				[READ&#x2001;ONLY]&#x2001;This&#x2001;repository&#x2001;is&#x2001;a&#x2001;mirror,&#x2001;for&#x2001;issue&#x2001;tracking&#x2001;and&#x2001;development&#x2001;head&#x2001;to:&#x2001;https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
 																			</b>
 																		</a>
 																	</td>
@@ -3578,7 +3578,7 @@
 																			<br />
 																			<a href="https://GitHub.Com/CodeEditorLand/TauriPluginWindowState" target="_blank">
 																				<b>
-																					[READ ONLY] This repository is a mirror, for issue tracking and development head to: https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
+																					[READ&#x2001;ONLY]&#x2001;This&#x2001;repository&#x2001;is&#x2001;a&#x2001;mirror,&#x2001;for&#x2001;issue&#x2001;tracking&#x2001;and&#x2001;development&#x2001;head&#x2001;to:&#x2001;https:⁄⁄githubcom⁄tauri-apps⁄plugins-workspace
 																				</b>
 																			</a>
 																		</td>
@@ -3619,8 +3619,8 @@
 																			<br />
 																			<a href="https://GitHub.Com/CodeEditorLand/TauriSearch" target="_blank">
 																				<b>
-																					[Archived] Tauri
-					s Search Capabilities for Website leveraging MeiliSearch
+																					[Archived]&#x2001;Tauri
+					s&#x2001;Search&#x2001;Capabilities&#x2001;for&#x2001;Website&#x2001;leveraging&#x2001;MeiliSearch
 																				</b>
 																			</a>
 																		</td>
@@ -3663,7 +3663,7 @@
 																			<br />
 																			<a href="https://GitHub.Com/CodeEditorLand/TauriTheia" target="_blank">
 																				<b>
-																					Tauri Flavor of Theia
+																					Tauri&#x2001;Flavor&#x2001;of&#x2001;Theia
 																				</b>
 																			</a>
 																		</td>
@@ -3704,7 +3704,7 @@
 																			<br />
 																			<a href="https://GitHub.Com/CodeEditorLand/TauriToml" target="_blank">
 																				<b>
-																					Better TOML parsing and stringifying all in that familiar JSON interface
+																					Better&#x2001;TOML&#x2001;parsing&#x2001;and&#x2001;stringifying&#x2001;all&#x2001;in&#x2001;that&#x2001;familiar&#x2001;JSON&#x2001;interface
 																				</b>
 																			</a>
 																		</td>
@@ -3747,7 +3747,7 @@
 																			<br />
 																			<a href="https://GitHub.Com/CodeEditorLand/TauriWebpack" target="_blank">
 																				<b>
-																					[Deprecated] webpack for no server
+																					[Deprecated]&#x2001;webpack&#x2001;for&#x2001;no&#x2001;server
 																				</b>
 																			</a>
 																		</td>
@@ -3788,7 +3788,7 @@
 																			<br />
 																			<a href="https://GitHub.Com/CodeEditorLand/TrayIcon" target="_blank">
 																				<b>
-																					Tray icons for Desktop Applications
+																					Tray&#x2001;icons&#x2001;for&#x2001;Desktop&#x2001;Applications
 																				</b>
 																			</a>
 																		</td>
@@ -3831,7 +3831,7 @@
 																			<br />
 																			<a href="https://GitHub.Com/CodeEditorLand/TypeDocPluginMarkdown" target="_blank">
 																				<b>
-																					A plugin for TypeDoc that enables TypeScript API documentation to be generated in Markdown
+																					A&#x2001;plugin&#x2001;for&#x2001;TypeDoc&#x2001;that&#x2001;enables&#x2001;TypeScript&#x2001;API&#x2001;documentation&#x2001;to&#x2001;be&#x2001;generated&#x2001;in&#x2001;Markdown
 																				</b>
 																			</a>
 																		</td>
@@ -3915,7 +3915,7 @@
 																			<br />
 																			<a href="https://GitHub.Com/CodeEditorLand/VueCLIPluginTauri" target="_blank">
 																				<b>
-																					Turn your Vue SPA into a lightweight cross-platform desktop app
+																					Turn&#x2001;your&#x2001;Vue&#x2001;SPA&#x2001;into&#x2001;a&#x2001;lightweight&#x2001;cross-platform&#x2001;desktop&#x2001;app
 																				</b>
 																			</a>
 																		</td>
@@ -3956,7 +3956,7 @@
 																			<br />
 																			<a href="https://GitHub.Com/CodeEditorLand/WebKit2GTKRS" target="_blank">
 																				<b>
-																					WebKit2 bindings and wrappers for Rust
+																					WebKit2&#x2001;bindings&#x2001;and&#x2001;wrappers&#x2001;for&#x2001;Rust
 																				</b>
 																			</a>
 																		</td>
@@ -3999,7 +3999,7 @@
 																			<br />
 																			<a href="https://GitHub.Com/CodeEditorLand/WebView" target="_blank">
 																				<b>
-																					Rust bindings for webview, a tiny cross-platform library to render web-based GUIs for desktop applications
+																					Rust&#x2001;bindings&#x2001;for&#x2001;webview,&#x2001;a&#x2001;tiny&#x2001;cross-platform&#x2001;library&#x2001;to&#x2001;render&#x2001;web-based&#x2001;GUIs&#x2001;for&#x2001;desktop&#x2001;applications
 																				</b>
 																			</a>
 																		</td>
@@ -4040,7 +4040,7 @@
 																			<br />
 																			<a href="https://GitHub.Com/CodeEditorLand/Win7Notifications" target="_blank">
 																				<b>
-																					Send Windows 10 styled notifications on Windows 7
+																					Send&#x2001;Windows&#x2001;10&#x2001;styled&#x2001;notifications&#x2001;on&#x2001;Windows&#x2001;7
 																				</b>
 																			</a>
 																		</td>
@@ -4083,7 +4083,7 @@
 																			<br />
 																			<a href="https://GitHub.Com/CodeEditorLand/WindowShadows" target="_blank">
 																				<b>
-																					Add native shadows to your windows
+																					Add&#x2001;native&#x2001;shadows&#x2001;to&#x2001;your&#x2001;windows
 																				</b>
 																			</a>
 																		</td>
@@ -4124,7 +4124,7 @@
 																			<br />
 																			<a href="https://GitHub.Com/CodeEditorLand/WindowVibrancy" target="_blank">
 																				<b>
-																					Make your windows vibrant
+																					Make&#x2001;your&#x2001;windows&#x2001;vibrant
 																				</b>
 																			</a>
 																		</td>
@@ -4167,7 +4167,7 @@
 																			<br />
 																			<a href="https://GitHub.Com/CodeEditorLand/Winit" target="_blank">
 																				<b>
-																					Window handling library in pure Rust
+																					Window&#x2001;handling&#x2001;library&#x2001;in&#x2001;pure&#x2001;Rust
 																				</b>
 																			</a>
 																		</td>
@@ -4208,7 +4208,7 @@
 																			<br />
 																			<a href="https://GitHub.Com/CodeEditorLand/WinRes" target="_blank">
 																				<b>
-																					Create and set windows icons and metadata for executables with a rust build script
+																					Create&#x2001;and&#x2001;set&#x2001;windows&#x2001;icons&#x2001;and&#x2001;metadata&#x2001;for&#x2001;executables&#x2001;with&#x2001;a&#x2001;rust&#x2001;build&#x2001;script
 																				</b>
 																			</a>
 																		</td>
@@ -4251,7 +4251,7 @@
 																			<br />
 																			<a href="https://GitHub.Com/CodeEditorLand/WinRTNotification" target="_blank">
 																				<b>
-																					An incomplete wrapper over the WinRT toast api written in rust
+																					An&#x2001;incomplete&#x2001;wrapper&#x2001;over&#x2001;the&#x2001;WinRT&#x2001;toast&#x2001;api&#x2001;written&#x2001;in&#x2001;rust
 																				</b>
 																			</a>
 																		</td>
@@ -4292,7 +4292,7 @@
 																			<br />
 																			<a href="https://GitHub.Com/CodeEditorLand/WorkflowTestBed" target="_blank">
 																				<b>
-																					Test bed that will soon be deleted
+																					Test&#x2001;bed&#x2001;that&#x2001;will&#x2001;soon&#x2001;be&#x2001;deleted
 																				</b>
 																			</a>
 																		</td>
@@ -4335,7 +4335,7 @@
 																			<br />
 																			<a href="https://GitHub.Com/CodeEditorLand/Wry" target="_blank">
 																				<b>
-																					Cross-platform WebView library in Rust for Tauri
+																					Cross-platform&#x2001;WebView&#x2001;library&#x2001;in&#x2001;Rust&#x2001;for&#x2001;Tauri
 																				</b>
 																			</a>
 																		</td>
@@ -4419,7 +4419,7 @@
 																			<br />
 																			<a href="https://GitHub.Com/CodeEditorLand/ZSergeWebview" target="_blank">
 																				<b>
-																					Tiny cross-platform webview library for C⁄C++⁄Golang Uses WebKit (Gtk⁄Cocoa) and Edge (Windows)
+																					Tiny&#x2001;cross-platform&#x2001;webview&#x2001;library&#x2001;for&#x2001;C⁄C++⁄Golang&#x2001;Uses&#x2001;WebKit&#x2001;(Gtk⁄Cocoa)&#x2001;and&#x2001;Edge&#x2001;(Windows)
 																				</b>
 																			</a>
 																		</td>
