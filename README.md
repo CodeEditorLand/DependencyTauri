@@ -9,11 +9,7 @@
 				</picture>
 			</h3>
 		</td>
-		<td colspan="3" valign="top">
-			<h3 align="center">
-				Cargo
-			</h3>
-		</td>
+		<td colspan="3" valign="top"><h3 align="center">Cargo&#x2001;📦</h3></td>
 	</tr>
 </table><table>
 	<tr>
@@ -24,11 +20,7 @@
 				</picture>
 			</h3>
 		</td>
-		<td colspan="3" valign="top">
-			<h3 align="center">
-				Dependency
-			</h3>
-		</td>
+		<td colspan="3" valign="top"><h3 align="center">Dependency&#x2001;📦</h3></td>
 	</tr>
 	<tr>
 		<td valign="top" colspan="1">
@@ -66,11 +58,7 @@
 				</picture>
 			</a>
 			<br />
-			<a href="https://GitHub.Com/CodeEditorLand/Tauri" target="_blank">
-				<b>
-					Build&#x2001;smaller,&#x2001;faster,&#x2001;and&#x2001;more&#x2001;secure&#x2001;desktop&#x2001;applications&#x2001;with&#x2001;a&#x2001;web&#x2001;frontend
-				</b>
-			</a>
+			<a href="https://GitHub.Com/CodeEditorLand/Tauri" target="_blank"><b>Build smaller, faster, and more secure desktop applications with a web frontend</b></a>
 		</td>
 		<td valign="top" colspan="1">
 			<a href="https://GitHub.Com/CodeEditorLand/PluginsWorkspace" target="_blank">
@@ -107,11 +95,7 @@
 				</picture>
 			</a>
 			<br />
-			<a href="https://GitHub.Com/CodeEditorLand/PluginsWorkspace" target="_blank">
-				<b>
-					All&#x2001;of&#x2001;the&#x2001;official&#x2001;Tauri&#x2001;plugins&#x2001;in&#x2001;one&#x2001;place!
-				</b>
-			</a>
+			<a href="https://GitHub.Com/CodeEditorLand/PluginsWorkspace" target="_blank"><b>All of the official Tauri plugins in one place!</b></a>
 		</td>
 	</tr>
 	<tr>
@@ -150,11 +134,7 @@
 				</picture>
 			</a>
 			<br />
-			<a href="https://GitHub.Com/CodeEditorLand/Wry" target="_blank">
-				<b>
-					Cross-platform&#x2001;WebView&#x2001;library&#x2001;in&#x2001;Rust&#x2001;for&#x2001;Tauri
-				</b>
-			</a>
+			<a href="https://GitHub.Com/CodeEditorLand/Wry" target="_blank"><b>Cross-platform WebView library in Rust for Tauri</b></a>
 		</td>
 		<td valign="top" colspan="1">
 			<a href="https://GitHub.Com/CodeEditorLand/Tao" target="_blank">
@@ -191,11 +171,7 @@
 				</picture>
 			</a>
 			<br />
-			<a href="https://GitHub.Com/CodeEditorLand/Tao" target="_blank">
-				<b>
-					The&#x2001;TAO&#x2001;of&#x2001;cross-platform&#x2001;windowing&#x2001;A&#x2001;library&#x2001;in&#x2001;Rust&#x2001;built&#x2001;for&#x2001;Tauri
-				</b>
-			</a>
+			<a href="https://GitHub.Com/CodeEditorLand/Tao" target="_blank"><b>The TAO of cross-platform windowing A library in Rust built for Tauri</b></a>
 		</td>
 	</tr>
 	<tr>
@@ -234,11 +210,7 @@
 				</picture>
 			</a>
 			<br />
-			<a href="https://GitHub.Com/CodeEditorLand/Muda" target="_blank">
-				<b>
-					Menu&#x2001;Utilities&#x2001;for&#x2001;Desktop&#x2001;Applications&#x2001;in&#x2001;Rust
-				</b>
-			</a>
+			<a href="https://GitHub.Com/CodeEditorLand/Muda" target="_blank"><b>Menu Utilities for Desktop Applications in Rust</b></a>
 		</td>
 		<td valign="top" colspan="1">
 			<a href="https://GitHub.Com/CodeEditorLand/TrayIcon" target="_blank">
@@ -275,11 +247,7 @@
 				</picture>
 			</a>
 			<br />
-			<a href="https://GitHub.Com/CodeEditorLand/TrayIcon" target="_blank">
-				<b>
-					Tray&#x2001;icons&#x2001;for&#x2001;Desktop&#x2001;Applications
-				</b>
-			</a>
+			<a href="https://GitHub.Com/CodeEditorLand/TrayIcon" target="_blank"><b>Tray icons for Desktop Applications</b></a>
 		</td>
 	</tr>
 	<tr>
@@ -318,11 +286,7 @@
 				</picture>
 			</a>
 			<br />
-			<a href="https://GitHub.Com/CodeEditorLand/WindowVibrancy" target="_blank">
-				<b>
-					Make&#x2001;your&#x2001;windows&#x2001;vibrant
-				</b>
-			</a>
+			<a href="https://GitHub.Com/CodeEditorLand/WindowVibrancy" target="_blank"><b>Make your windows vibrant</b></a>
 		</td>
 		<td valign="top" colspan="1">
 			<a href="https://GitHub.Com/CodeEditorLand/WindowShadows" target="_blank">
@@ -359,11 +323,7 @@
 				</picture>
 			</a>
 			<br />
-			<a href="https://GitHub.Com/CodeEditorLand/WindowShadows" target="_blank">
-				<b>
-					Add&#x2001;native&#x2001;shadows&#x2001;to&#x2001;your&#x2001;windows
-				</b>
-			</a>
+			<a href="https://GitHub.Com/CodeEditorLand/WindowShadows" target="_blank"><b>Add native shadows to your windows</b></a>
 		</td>
 	</tr>
 	<tr>
@@ -402,15 +362,9 @@
 				</picture>
 			</a>
 			<br />
-			<a href="https://GitHub.Com/CodeEditorLand/GlobalHotKey" target="_blank">
-				<b>
-					Global&#x2001;hotkeys&#x2001;for&#x2001;Desktop&#x2001;Applications
-				</b>
-			</a>
+			<a href="https://GitHub.Com/CodeEditorLand/GlobalHotKey" target="_blank"><b>Global hotkeys for Desktop Applications</b></a>
 		</td>
-		<td valign="top" colspan="1">
-			<td valign="top" colspan="1">
-		</td>
+		<td valign="top" colspan="1"><td valign="top" colspan="1"></td>
 	</tr>
 </table><table>
 	<tr>
@@ -421,11 +375,7 @@
 				<img width="28" alt="" src="https://editor.land/Image/GitHub/NPM.svg" />
 			</picture>
 		</h3>
-		<td colspan="3" valign="top">
-			<h3 align="center">
-				NPM
-			</h3>
-		</td>
+		<td colspan="3" valign="top"><h3 align="center">NPM&#x2001;📦</h3></td>
 	</tr>
 </table>
 
