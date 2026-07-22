@@ -9,7 +9,11 @@
 				</picture>
 			</h3>
 		</td>
-		<td colspan="3" valign="top"><h3 align="center">Cargo&#x2001;📦</h3></td>
+		<td colspan="3" valign="top">
+			<h3 align="center">
+				Cargo&#x2001;📦
+			</h3>
+		</td>
 	</tr>
 </table><table>
 	<tr>
@@ -20,7 +24,11 @@
 				</picture>
 			</h3>
 		</td>
-		<td colspan="3" valign="top"><h3 align="center">Dependency&#x2001;📦</h3></td>
+		<td colspan="3" valign="top">
+			<h3 align="center">
+				Dependency&#x2001;📦
+			</h3>
+		</td>
 	</tr>
 	<tr>
 		<td valign="top" colspan="1">
@@ -58,7 +66,11 @@
 				</picture>
 			</a>
 			<br />
-			<a href="https://GitHub.Com/CodeEditorLand/Tauri" target="_blank"><b>Build smaller, faster, and more secure desktop applications with a web frontend</b></a>
+			<a href="https://GitHub.Com/CodeEditorLand/Tauri" target="_blank">
+				<b>
+					Build smaller, faster, and more secure desktop applications with a web frontend
+				</b>
+			</a>
 		</td>
 		<td valign="top" colspan="1">
 			<a href="https://GitHub.Com/CodeEditorLand/PluginsWorkspace" target="_blank">
@@ -95,7 +107,11 @@
 				</picture>
 			</a>
 			<br />
-			<a href="https://GitHub.Com/CodeEditorLand/PluginsWorkspace" target="_blank"><b>All of the official Tauri plugins in one place!</b></a>
+			<a href="https://GitHub.Com/CodeEditorLand/PluginsWorkspace" target="_blank">
+				<b>
+					All of the official Tauri plugins in one place!
+				</b>
+			</a>
 		</td>
 	</tr>
 	<tr>
@@ -134,7 +150,11 @@
 				</picture>
 			</a>
 			<br />
-			<a href="https://GitHub.Com/CodeEditorLand/Wry" target="_blank"><b>Cross-platform WebView library in Rust for Tauri</b></a>
+			<a href="https://GitHub.Com/CodeEditorLand/Wry" target="_blank">
+				<b>
+					Cross-platform WebView library in Rust for Tauri
+				</b>
+			</a>
 		</td>
 		<td valign="top" colspan="1">
 			<a href="https://GitHub.Com/CodeEditorLand/Tao" target="_blank">
@@ -171,7 +191,11 @@
 				</picture>
 			</a>
 			<br />
-			<a href="https://GitHub.Com/CodeEditorLand/Tao" target="_blank"><b>The TAO of cross-platform windowing A library in Rust built for Tauri</b></a>
+			<a href="https://GitHub.Com/CodeEditorLand/Tao" target="_blank">
+				<b>
+					The TAO of cross-platform windowing A library in Rust built for Tauri
+				</b>
+			</a>
 		</td>
 	</tr>
 	<tr>
@@ -210,7 +234,11 @@
 				</picture>
 			</a>
 			<br />
-			<a href="https://GitHub.Com/CodeEditorLand/Muda" target="_blank"><b>Menu Utilities for Desktop Applications in Rust</b></a>
+			<a href="https://GitHub.Com/CodeEditorLand/Muda" target="_blank">
+				<b>
+					Menu Utilities for Desktop Applications in Rust
+				</b>
+			</a>
 		</td>
 		<td valign="top" colspan="1">
 			<a href="https://GitHub.Com/CodeEditorLand/TrayIcon" target="_blank">
@@ -247,7 +275,11 @@
 				</picture>
 			</a>
 			<br />
-			<a href="https://GitHub.Com/CodeEditorLand/TrayIcon" target="_blank"><b>Tray icons for Desktop Applications</b></a>
+			<a href="https://GitHub.Com/CodeEditorLand/TrayIcon" target="_blank">
+				<b>
+					Tray icons for Desktop Applications
+				</b>
+			</a>
 		</td>
 	</tr>
 	<tr>
@@ -286,7 +318,11 @@
 				</picture>
 			</a>
 			<br />
-			<a href="https://GitHub.Com/CodeEditorLand/WindowVibrancy" target="_blank"><b>Make your windows vibrant</b></a>
+			<a href="https://GitHub.Com/CodeEditorLand/WindowVibrancy" target="_blank">
+				<b>
+					Make your windows vibrant
+				</b>
+			</a>
 		</td>
 		<td valign="top" colspan="1">
 			<a href="https://GitHub.Com/CodeEditorLand/WindowShadows" target="_blank">
@@ -323,7 +359,11 @@
 				</picture>
 			</a>
 			<br />
-			<a href="https://GitHub.Com/CodeEditorLand/WindowShadows" target="_blank"><b>Add native shadows to your windows</b></a>
+			<a href="https://GitHub.Com/CodeEditorLand/WindowShadows" target="_blank">
+				<b>
+					Add native shadows to your windows
+				</b>
+			</a>
 		</td>
 	</tr>
 	<tr>
@@ -362,9 +402,15 @@
 				</picture>
 			</a>
 			<br />
-			<a href="https://GitHub.Com/CodeEditorLand/GlobalHotKey" target="_blank"><b>Global hotkeys for Desktop Applications</b></a>
+			<a href="https://GitHub.Com/CodeEditorLand/GlobalHotKey" target="_blank">
+				<b>
+					Global hotkeys for Desktop Applications
+				</b>
+			</a>
 		</td>
-		<td valign="top" colspan="1"><td valign="top" colspan="1"></td>
+		<td valign="top" colspan="1">
+			<td valign="top" colspan="1">
+		</td>
 	</tr>
 </table><table>
 	<tr>
@@ -375,7 +421,11 @@
 				<img width="28" alt="" src="https://editor.land/Image/GitHub/NPM.svg" />
 			</picture>
 		</h3>
-		<td colspan="3" valign="top"><h3 align="center">NPM&#x2001;📦</h3></td>
+		<td colspan="3" valign="top">
+			<h3 align="center">
+				NPM&#x2001;📦
+			</h3>
+		</td>
 	</tr>
 </table>
 
@@ -394,18 +444,50 @@ This project is funded through
 <table>
 	<thead>
 		<tr>
-			<th align="left"><strong>Land</strong></th>
-			<th align="left"><strong>PlayForm</strong></th>
-			<th align="left"><strong>NLnet</strong></th>
-			<th align="left"><strong>NGI0 Commons Fund</strong></th>
+			<th align="left">
+				<strong>
+					Land
+				</strong>
+			</th>
+			<th align="left">
+				<strong>
+					PlayForm
+				</strong>
+			</th>
+			<th align="left">
+				<strong>
+					NLnet
+				</strong>
+			</th>
+			<th align="left">
+				<strong>
+					NGI0 Commons Fund
+				</strong>
+			</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td align="left" valign="middle"><a href="https://editor.land"><img width="60" src="https://raw.githubusercontent.com/CodeEditorLand/Asset/refs/heads/Current/Logo/Land.svg" alt="Land" /></a></td>
-			<td align="left" valign="middle"><a href="https://PlayForm.Cloud"><img width="76" src="https://raw.githubusercontent.com/PlayForm/Asset/refs/heads/Current/Logo/PlayForm.svg" alt="PlayForm" /></a></td>
-			<td align="left" valign="middle"><a href="https://NLnet.NL"><img width="240" src="https://NLnet.NL/logo/banner.svg" alt="NLnet" /></a></td>
-			<td align="left" valign="middle"><a href="https://NLnet.NL/commonsfund"><img width="240" src="https://NLnet.NL/image/logos/NGI0CommonsFund_tag_black_mono.svg" alt="NGI0 Commons Fund" /></a></td>
+			<td align="left" valign="middle">
+				<a href="https://editor.land">
+					<img width="60" src="https://raw.githubusercontent.com/CodeEditorLand/Asset/refs/heads/Current/Logo/Land.svg" alt="Land" />
+				</a>
+			</td>
+			<td align="left" valign="middle">
+				<a href="https://PlayForm.Cloud">
+					<img width="76" src="https://raw.githubusercontent.com/PlayForm/Asset/refs/heads/Current/Logo/PlayForm.svg" alt="PlayForm" />
+				</a>
+			</td>
+			<td align="left" valign="middle">
+				<a href="https://NLnet.NL">
+					<img width="240" src="https://NLnet.NL/logo/banner.svg" alt="NLnet" />
+				</a>
+			</td>
+			<td align="left" valign="middle">
+				<a href="https://NLnet.NL/commonsfund">
+					<img width="240" src="https://NLnet.NL/image/logos/NGI0CommonsFund_tag_black_mono.svg" alt="NGI0 Commons Fund" />
+				</a>
+			</td>
 		</tr>
 	</tbody>
 </table>
